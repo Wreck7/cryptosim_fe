@@ -1,9 +1,9 @@
 import streamlit as st
 import requests
+from url import BASE_URL
 
 # --- CONFIG ---
 st.set_page_config(page_title="CryptoSim Auth", layout="centered", page_icon="🔐")
-BASE_URL = "http://127.0.0.1:7001"  # Update if deployed
 
 st.markdown("<h1 style='text-align: center;'>CryptoSim</h1>", unsafe_allow_html=True)
 

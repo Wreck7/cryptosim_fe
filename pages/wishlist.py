@@ -1,7 +1,8 @@
 import streamlit as st
 import requests
+from url import BASE_URL
 
-BASE_URL = "http://127.0.0.1:7001"
+
 
 def render_wishlist_page():
     st.markdown("## 🌟 Your Wishlist")

@@ -1,0 +1,3 @@
+BASE_URL = 'https://cryptosim-cezfamdoi-vishwagovula07-gmailcoms-projects.vercel.app'
+
+# BASE_URL = "http://127.0.0.1:7000"  # Update if needed

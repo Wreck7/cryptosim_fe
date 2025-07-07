@@ -21,7 +21,8 @@ from pages.wishlist import render_wishlist_page
 from pages.transactions import render_transactions_page
 from pages.profile import render_profile_page
 
-BASE_URL = "http://127.0.0.1:7001"  # Update if needed
+from url import BASE_URL
+
 
 def fetch_coins():
     requests.get(f"{BASE_URL}/refresh-dashboard")

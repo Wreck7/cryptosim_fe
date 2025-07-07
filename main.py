@@ -34,6 +34,7 @@ with tab2:
                 st.success(f"✅ Login successful! Welcome, {data['user']['name']}")
                 st.rerun()  # 🔁 Needed to trigger page switch
             else:
+                print(res.status_code)
                 st.error(res.json().get("message", "Login failed."))
 
 # --- REGISTER TAB ---

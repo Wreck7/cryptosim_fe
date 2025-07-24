@@ -41,7 +41,7 @@ def render_profile_page():
         margin: auto;
         box-shadow: 0 0 10px rgba(0,0,0,0.3);
     ">
-        <h3 style="margin-top: 0;">🙋‍♀️ {name.title()}</h3>
+        <h3 style="margin-top: 0;"> {name.title()}</h3>
         <p><strong>👤 Username:</strong> {username}</p>
         <p><strong>📧 Email:</strong> {email}</p>
         <p><strong>📱 Phone:</strong> {phone}</p>

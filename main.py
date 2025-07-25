@@ -62,8 +62,9 @@ with tab1:
                 "age": age,
                 "phone": phone
             })
+            print(email)
             print("Response Status:", res.status_code)
-            print("Response Text:", res.text)
+            # print("Response Text:", res.text)
             if res.status_code == 200 and res.json().get("success"):
                 st.success("🎉 Registered successfully! You can now log in.")
             else:

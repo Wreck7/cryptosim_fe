@@ -65,6 +65,8 @@ with tab1:
             if res.status_code == 200 and res.json().get("success"):
                 st.success("🎉 Registered successfully! You can now log in.")
             else:
+                st.write("Status Code:", res.status_code)
+                st.write("Raw Response:", res.text)
                 st.error(res.json().get("message", "Registration failed."))
 
 # --- REDIRECT TO DASHBOARD IF LOGGED IN ---

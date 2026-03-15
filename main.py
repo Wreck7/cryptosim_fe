@@ -69,6 +69,6 @@ with tab1:
                 st.write("Raw Response:", res.text)
                 st.error(res.json().get("message", "Registration failed."))
 
-
+# --- REDIRECT TO DASHBOARD IF LOGGED IN ---
 if st.session_state.get("logged_in"):
     st.switch_page("pages/dashboard.py")

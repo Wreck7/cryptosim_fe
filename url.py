@@ -1,4 +1,3 @@
-# BASE_URL = 'https://cryptosim-cezfamdoi-vishwagovula07-gmailcoms-projects.vercel.app'
 
 BASE_URL = 'https://cryptosim-backend.onrender.com'
 
